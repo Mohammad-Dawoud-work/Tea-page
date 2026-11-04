@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: green;
+}
+
+#header {
+    border-bottom: 1px solid red;
+    height: 69px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    padding-left: 10px;
+    padding-top: 9.75px;
+    display: flex;
+    width: auto;
+}
+
+.headerLinks {
+    display: flex;
+    border: 1px solid blue;
+    gap: 20px;
+
+}
+#mainImage {
+    background-image: url("/Users/Mohammad/Codecademy Projects/TeaProject/resources/img-mission-background.webp");
+    height: 700px;
+    width: 1200px;
+
+}
