@@ -1,14 +1,21 @@
+* {
+    outline: 1px solid salmon;
+}
+
 body {
     background-color: black;
-    color: green;
+    color: seashell;
+    font-size: 22px;
+    font-family: Helvetica;
 }
 
 #header {
-    border-bottom: 1px solid red;
+    border-bottom: 1px solid seashell;
     height: 69px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
 }
 
 #logo {
@@ -20,13 +27,35 @@ body {
 
 .headerLinks {
     display: flex;
-    border: 1px solid blue;
     gap: 20px;
-
+    text-decoration: underline;
 }
+
 #mainImage {
     background-image: url("/Users/Mohammad/Codecademy Projects/TeaProject/resources/img-mission-background.webp");
     height: 700px;
     width: 1200px;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+}
 
+#imageDiv {
+    justify-content: space-around;
+    display: flex;
+}
+
+#middleP {
+    background-color: black;
+    height: fit-content;
+    width: 100%;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 8px;
+}
+
+h4 {
+    margin-bottom: 8px;
 }
